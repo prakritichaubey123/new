@@ -1,4 +1,4 @@
-from crewai import Task and
+from crewai import Task 
 from textwrap import dedent
 
 class EmailFilterTasks:
