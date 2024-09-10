@@ -1,4 +1,4 @@
-from langchain_community.agent_toolkits import GmailToolkit and 
+from langchain_community.agent_toolkits import GmailToolkit 
 from langchain_community.tools.gmail.get_thread import GmailGetThread
 from langchain_community.tools.tavily_search import TavilySearchResults
 
