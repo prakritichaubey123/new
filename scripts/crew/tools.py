@@ -10,7 +10,7 @@ class CreateDraftTool():
       The input to this tool should be a pipe (|) separated text
       of length 3 (three), representing who to send the email to,
       the subject of the email and the actual message.
-      For example, `lorem@ipsum.com|Nice To Meet You|Hey it was great to meet you.`.
+      For example, `lorem@ipsum.com|Nice To Meet You|Hey it was great to meet you.`
     """
     email, subject, message = data.split('|')
     gmail = GmailToolkit()
