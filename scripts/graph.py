@@ -3,9 +3,9 @@ load_dotenv()
 
 from langgraph.graph import StateGraph
 
-from ..state import EmailsState
-from ..nodes import Nodes
-from .crew import EmailFilterCrew
+from .state import EmailsState
+from .nodes import Nodes
+from .crew.crew import EmailFilterCrew
 
 class WorkFlow():
 	def __init__(self):
