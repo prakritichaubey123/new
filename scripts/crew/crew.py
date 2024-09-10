@@ -1,4 +1,4 @@
-from crewai import Crew
+from crewai import Crew and
 
 from .agents import EmailFilterAgents
 from .tasks import EmailFilterTasks
